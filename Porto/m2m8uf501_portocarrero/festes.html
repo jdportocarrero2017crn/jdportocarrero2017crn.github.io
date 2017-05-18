@@ -1,0 +1,128 @@
+
+<!DOCTYPE html>
+	<html>
+		<head>
+			<title>DEMO RESPONSIVE</title>
+			<meta author="Daniel">
+			<meta charset="utf-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+			<link rel="stylesheet" type="text/css" href="festes.css">
+			<style>
+				#menu{
+					width: 150px;
+					height: 300px;
+					list-style-type: none;
+					background-color: white;
+					margin: 0;
+					padding: 0;
+					transition: 1s;
+					position: absolute;
+					overflow: hidden;
+					top: 0;
+					left: -300px;
+				}
+				#tanca{
+					cursor: pointer;
+					color: red;
+				}
+				#a{
+					text-decoration: none;
+					color: red;
+				}
+				h2{
+					margin: 0;
+					cursor: pointer;
+				}
+			</style>
+		</head>
+		<body>
+			<div id="cap">
+			
+				<h2 onclick="obri()">☰</h2>
+				<ul id="menu">
+					<li id="tanca" onclick="tanca()">X</li>
+					<li><a href="inicio.html" target="_self">Inicio</a></li>
+					<li><a href="historia.html" target="_self">Història</a></li>
+					<li><a href="mapa.html" target="_self">Mapa</a></li>
+					<li><a href="platstipics.html" target="_self">Plats Típics</a></li>
+					<li><a href="fruitatipica.html" target="_self">Fruita Típica</a></li>
+					<li><a href="costums.html" target="_self">Costums</a></li>
+					<li><a href="festes.html" target="_self">Festes</a></li>
+					<li><a href="rutes.html" target="_self">Rutes</a></li>
+					<li><a href="hotels.html" target="_self">Hotels</a></li>
+					<li><a href="moure's.html" target="_self">Moure's</a></li>
+					<li><a href="expressions.html" target="_self">Expressions de Perú</a></li>
+				</ul>
+			</div>
+			<script type="text/javascript" lenguage="javascript">
+				function obri(){
+					document.getElementById("menu").style.left="0px";
+				}
+				function tanca(){
+					document.getElementById("menu").style.left="-300px";
+				}
+			</script>
+			<div id="lateral">
+			</div>
+			<div id="lateralD">
+				<div class="D2">
+					<h1 align="center">Festes</h1>
+							<p><u>- Festival Nacional de la Marinera:</u> aquesta festa té lloc a Trujillo, es tracta d’un concurs de ball anomenat “Marinera”. Aquest ball és molt elegant, es realitza amb parelles fent moviments característics amb un tovalló blanc, i en quant la vestimenta l’home ha de portar un ponxo i amb un barret i la dona un vestit regional. </p>
+
+							<img src="../img/marinera.jpg"/>
+
+							<p><u>- Festa de la Verge de la Candelaria:</u> té lloc en Puno el 2 de Febrer, i el que es fa es venera la Verge de l’església de Sant Joan.</p>
+
+							<img src="../img/candelaria.jpg"/>
+
+							<p><u>- Carnaval:</u> es fa en tot el Perú en la quinzena de Febrer, i els carnavals que més destaquen són d’Ayacucho. Cataos, Cajamarca i Tacna, entre altres.</p> 
+
+							<p><u>- Setmana Santa:</u> festival religiós que es celebra en tot el Perú, els llocs més especials on es celebra aquesta festivitat és en Tarma i Trujillo.</p> 
+
+							<img src="../img/semanasanta.jpg"/>
+
+							<p><u>- Festival Internacional de la Verema d’Ica:</u> té lloc a Ica en el primer cap de setmana de Març. És una festa en el que es fan concursos de vins i pisco.</p>
+
+							<p><u>- Concurs Nacional del Cavall de Pas:</u> aquesta celebració té lloc el tercer diumenge d’Abril. El cavall de pas és una raça de cavall peruà que vénen dels cavalls dels espanyols durant el període de conquista.</p>
+
+							<img src="../img/caballopaso.jpg"/>
+
+							<p><u>- Senyor de Muruhuay:</u> es celebra principalment el 3 de Maig encara que duri tot el mes. En aquest mes està ple de festes amb danses típica de la regió i amb menjars tradicionals.</p>
+
+							<img src="../img/señordemuruhuay.jpg"/>
+
+							<p><u>- Verge de Chapi:</u> també es denomina Verge de les Purificacions. El seu dia és l’1 de Maig, és una festa religiosa que hi ha música i menjar.</p>
+
+							<p><u>- Inti Raymi:</u> aquesta festa té lloc en Cuzco el dia 24 de Juny. Es tracta de la tradicional festa del sol que en les mateixes dates té lloc el solstici d’hivern i les collites.</p>
+
+							<img src="../img/IntiRaymi.jpg"/>
+
+							<p><u>-Quyllurit’i:</u> té lloc en la ciutat de Cuzco entre Maig i Juny. És la peregrinació de les nacions indígenes més importants.</p>
+
+							<p><u>-Festes Pàtries:</u> es fa el 28 d’aquest mes es celebra el Dia de la Independència del Perú, amb moltes festes acompanyades de música, balls, gastronomia, misses, entre altres.</p>
+
+							<img src="../img/fiestaspatrias.jpg"/>
+
+							<p><u>- Santa Rosa de Lima:</u> aquesta festa té lloc el 30 d’Agost i es celebra la Santa Patrona de les Amèriques i les Filipines. Aquest dia els fidels visiten el seu santuari i ermita que va construir.</p>
+
+							<img src="../img/santarosadelima.jpg"/>
+
+							<p><u>- Evocació i escenificacions de la Festa Inca del Warachicuy:</u> aquesta festa té lloc en la ciutat de Cuzco, el tercer diumenge de Setembre. És una celebració en la qual es manifesten l’art tradicionals d’aquesta cultura.</p>
+
+							<img src="../img/warachicuy.jpg"/>
+
+							<p><u>- Senyor dels Miracles:</u> en el mes d’Octubre els fidels celebren al Crist Morè i en el dia mes important es fa una festivitat amb una processió on els fidels es vesteixen amb uns hàbits morats resant i cantant.</p>
+
+							<img src="../img/senyordelsmiracles.jpg"/>
+
+							<p><u>- Dia de tots els Sants i dia dels difunts:</u> té lloc el dia 1 i 2 d’aquest mes, i es celebra en tot el Perú, però el més important són en Cajamarca i Piura.</p>
+
+							<img src="../img/diadetodoslossantos.jpg"/>
+
+							<p><u>- Santuranticuy:</u> té lloc en la Plaça Major de Cuzco el dia 24 de Desembre. És una celebració d’art popular, que els artesans ofereixen les seves obres als millors preus.</p>
+
+							<img src="../img/santuranticuy.jpg"/>
+				</div>		
+			</div>
+		</body>
+	</html>

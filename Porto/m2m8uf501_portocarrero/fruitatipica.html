@@ -1,0 +1,127 @@
+
+<!DOCTYPE html>
+	<html>
+		<head>
+			<title>DEMO RESPONSIVE</title>
+			<meta author="Daniel">
+			<meta charset="utf-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+			<link rel="stylesheet" type="text/css" href="fruitatipica.css">
+			<style>
+				#menu{
+					width: 150px;
+					height: 300px;
+					list-style-type: none;
+					background-color: white;
+					margin: 0;
+					padding: 0;
+					transition: 1s;
+					position: absolute;
+					overflow: hidden;
+					top: 0;
+					left: -300px;
+				}
+				#tanca{
+					cursor: pointer;
+					color: red;
+				}
+				#a{
+					text-decoration: none;
+					color: red;
+				}
+				h2{
+					margin: 0;
+					cursor: pointer;
+				}
+			</style>
+		</head>
+		<body>
+			<div id="cap">
+			
+				<h2 onclick="obri()">☰</h2>
+				<ul id="menu">
+					<li id="tanca" onclick="tanca()">X</li>
+					<li><a href="inicio.html" target="_self">Inicio</a></li>
+					<li><a href="historia.html" target="_self">Història</a></li>
+					<li><a href="mapa.html" target="_self">Mapa</a></li>
+					<li><a href="platstipics.html" target="_self">Plats Típics</a></li>
+					<li><a href="fruitatipica.html" target="_self">Fruita Típica</a></li>
+					<li><a href="costums.html" target="_self">Costums</a></li>
+					<li><a href="festes.html" target="_self">Festes</a></li>
+					<li><a href="rutes.html" target="_self">Rutes</a></li>
+					<li><a href="hotels.html" target="_self">Hotels</a></li>
+					<li><a href="moure's.html" target="_self">Moure's</a></li>
+					<li><a href="expressions.html" target="_self">Expressions de Perú</a></li>
+				</ul>
+			</div>
+			<script type="text/javascript" lenguage="javascript">
+				function obri(){
+					document.getElementById("menu").style.left="0px";
+				}
+				function tanca(){
+					document.getElementById("menu").style.left="-300px";
+				}
+			</script>
+			<div id="lateral">
+			</div>
+			<div id="lateralD">
+				<div class="D2">
+					<h1 align="center">Fruita típica</h1>
+							<p><u>La lúcuma:</u> es conrea des de l’època prehispànica i el seu valor gastronòmic és molt alt. El seu sabor és únic i increïble, és utilitzada en postres, dolços i com no esmentar el gelat de lúcuma, un dels sabors de gelats més preuats pels peruans.</p>
+
+							<img src="../img/lucuma.jpg"/>
+
+							<p><u>La xirimoia:</u> el seu nom és deu als vocables quechues “chiri” fred i "moya" llavors, ja que és una fruita que germina amb temperatures baixes en elevades altituds. Avui és una de les fruites més apreciades del món i és conrea a gairebé tota Amèrica, a Europa i Àfrica.</p> 
+
+							<img src="../img/xirimoia.jpg"/> 
+
+							<p><u>El aguaymanto:</u> aquesta planta oriünda del Perú va créixer de forma silvestre i abundant durant l’imperi incaic formant part dela seva dieta. En l’actualitat es conrea a diversos països, ja que la seva demanda s’ha incrementat a escala internacional.</p>
+
+							<img src="../img/aguaymanto.png"/> 
+
+							<p><u>La palta:</u> fruita d’origen peruà. El nom palta s’origina en la paraula quítxua palta. La palta s’utilitza en la gastronomia peruana en innombrables i diverses formes ja sigui com amanida, salses, sandvitxos, com a farcit a la famosa causa i el còctel de gambetes entre d’altres.</p>
+
+							<img src="../img/palta.jpg"/> 
+				</div>
+				
+
+				<div class="D3">
+					
+				</div>
+				
+
+				<div class="D3">
+					
+				</div>
+				
+
+				<div class="D3">
+					
+				</div>
+				
+
+				<div class="D3">
+					
+				</div>
+				<div class="D3">
+					
+				</div>
+				
+
+				<div class="D3">
+					
+				</div>
+				
+
+				<div class="D3">
+					
+				</div>
+				
+
+				<div class="D3">
+					
+				</div>
+						
+			</div>
+		</body>
+	</html>

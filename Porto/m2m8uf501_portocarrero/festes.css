@@ -1,0 +1,195 @@
+body{
+	left: 0;
+	margin: 0;	
+	padding: 0;
+}
+
+/* Mobil */
+@media only screen and (max-width: 479px) and (orientation: portrait)
+
+	{
+		body{
+			background-color: black;
+			font: Arial ;
+		}
+
+		p{
+			font-family: Arial, Times;
+			font-size: ;
+			color: white;
+		}
+		h1{
+			font-family: Arial, Times;
+			font-size: ;
+			color: white;
+		}
+		h2{
+			font-size: 30px;
+			position: absolute;
+			top: 30px;		
+		}
+		li{
+			font-family: Arial, Times;
+		}
+		#menu{
+			width: 30%;
+		}
+		#cap{
+			height: 110px;
+			width: 100%;
+			background-color: white;
+			background-image: url("../img/logo.gif");
+			background-repeat: no-repeat;
+			background-position: center;
+			position: fixed;
+			z-index: 1;
+			top: 0px;
+			left: 0px;
+			right: 0px;
+		}
+		
+		#lateral{
+			width: 0;
+			background-color: pink;
+		}
+
+		#lateralD{
+			background-color: black;
+			overflow:hidden;
+			object-position: center;
+			padding: 5px;
+			position: relative;
+			top: 110px;
+		}
+
+		.D2{
+			height: 4000px;
+			width: 98%;
+			background-color: black;
+			margin: 5px;
+			float: left;
+		}
+	}
+
+@media only screen and (max-width: 479px) and (orientation: landscape)
+
+	{
+		body{
+			background-color: black;
+			font: Arial ;
+		}
+
+		p{
+			font-family: Arial, Times;
+			font-size: ;
+			color: white;
+		}
+		h1{
+			font-family: Arial, Times;
+			font-size: ;
+			color: white;
+		}
+		h2{
+			font-size: 30px;
+			position: absolute;
+			top: 30px;		
+		}
+		li{
+			font-family: Arial, Times;
+		}
+		#menu{
+			width: 30%;
+		}
+		#cap{
+			height: 110px;
+			width: 100%;
+			background-color: white;
+			background-image: url("../img/logo.gif");
+			background-repeat: no-repeat;
+			background-position: center;
+			position: fixed;
+			z-index: 1;
+			top: 0px;
+			left: 0px;
+			right: 0px;
+		}
+		
+		#lateral{
+			width: 0;
+			background-color: pink;
+		}
+
+		#lateralD{
+			background-color: black;
+			overflow:hidden;
+			object-position: center;
+			padding: 5px;
+			position: relative;
+			top: 110px;
+		}
+
+		.D2{
+			height: 4500px;
+			width: 98%;
+			background-color: black;
+			margin: 5px;
+			float: left;
+		}
+	}
+/* Escriptori */
+@media only screen and (min-width: 480px)
+
+	{
+		body{
+			background-color: black;
+		}
+		p{
+			font-family: Arial, Times;
+			font-size: ;
+			color: white;
+		}
+		h1{
+			font-family: Arial, Times;
+			font-size:;
+			color: white;
+		}
+		h2{
+			font-size: 30px;
+			position: absolute;
+			top: 30px;		
+		}
+		li{
+			font-family: Arial, Times;
+		}
+		#cap{
+			height: 110px;
+			width: 100%;
+			background-color: white;
+			background-image: url("../img/logo.gif");
+			background-repeat: no-repeat;
+			background-position: center; 
+			position: fixed;
+			z-index: 1;
+			top: 0px;
+			left: 0px;
+			right: 0px;
+		}
+		#lateralD{
+			width: 100%;
+			background-color: black;
+			overflow:hidden;
+			object-position: left;
+			float: right;
+			position: relative;
+			top: 110px;
+		}
+		.D2{
+			height: 4000px;
+			width: 50%;
+			background-color: black;
+			margin-top: 5px;
+			margin-left: 25%;
+			margin-right: 25%;
+			position: center;
+		}
+	}
