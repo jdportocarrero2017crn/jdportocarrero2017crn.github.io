@@ -1,0 +1,104 @@
+
+<!DOCTYPE html>
+	<html>
+		<head>
+			<title>DEMO RESPONSIVE</title>
+			<meta author="Daniel">
+			<meta charset="utf-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+			<link rel="stylesheet" type="text/css" href="rutes.css">
+			<style>
+				#menu{
+					width: 150px;
+					height: 300px;
+					list-style-type: none;
+					background-color: white;
+					margin: 0;
+					padding: 0;
+					transition: 1s;
+					position: absolute;
+					overflow: hidden;
+					top: 0;
+					left: -300px;
+				}
+				#tanca{
+					cursor: pointer;
+					color: red;
+				}
+				#a{
+					text-decoration: none;
+					color: red;
+				}
+				h2{
+					margin: 0;
+					cursor: pointer;
+				}
+			</style>
+		</head>
+		<body>
+			<div id="cap">
+			
+				<h2 onclick="obri()">☰</h2>
+				<ul id="menu">
+					<li id="tanca" onclick="tanca()">X</li>
+					<li><a href="inicio.html" target="_self">Inicio</a></li>
+					<li><a href="història.html" target="_self">Història</a></li>
+					<li><a href="mapa.html" target="_self">Mapa</a></li>
+					<li><a href="platstípics.html" target="_self">Plats Típics</a></li>
+					<li><a href="fruitatípica.html" target="_self">Fruita Típica</a></li>
+					<li><a href="costums.html" target="_self">Costums</a></li>
+					<li><a href="festes.html" target="_self">Festes</a></li>
+					<li><a href="rutes.html" target="_self">Rutes</a></li>
+					<li><a href="hotels.html" target="_self">Hotels</a></li>
+					<li><a href="moure's.html" target="_self">Moure's</a></li>
+					<li><a href="expressions.html" target="_self">Expressions de Perú</a></li>
+				</ul>
+			</div>
+			<script type="text/javascript" lenguage="javascript">
+				function obri(){
+					document.getElementById("menu").style.left="0px";
+				}
+				function tanca(){
+					document.getElementById("menu").style.left="-300px";
+				}
+			</script>
+			<div id="lateral">
+			</div>
+			<div id="lateralD">
+				<div class="D2">
+					<h1 align="center">Rutes</h1>
+							<p><u>Cusco:</u> el temps passa de pressa perquè hi ha tant per conèixer que la seva estada li semblarà curta. L’antiga capital del Tahuantinsuyo és una ciutat d’intensos contrastos i la seducció que exerceixen les seves magnífiques muralles inques, coronades per balcons i teulades d’influència espanyola.</p>
+
+							<img src="../img/Tahuantinsuyo.jpg"/>
+
+							<p><u>Kuelap:</u> al cim dels Andes amazònics del nord del Perú, a 3.000 metres sobre el nivell del mar, es troba l’imponent Complex Arqueològic Kuelap, construïda pels Chachapoya, cultura pre inca que es va desenvolupar l’any 800 dC al 1470 dC.</p>
+
+							<img src="../img/kualep.jpg"/>
+
+							<p><u>Ruta Moche:</u> a la costa nord del Perú, comprenent principalment les Regions de la Llibertat i Lambayeque es troba La “Ruta Moche,” espai geogràfic on va florir l’excepcional cultura Moche, entre els anys 100 i 800 dC.</p> 
+
+							<img src="../img/rutamoche.jpg"/>
+
+							<p><u>Línies de Nazca:</u> un conjunt de línies solcades a la terra situades a la pampa de Socos prop de Nazca. Línies que només es poden veure des de l’aire si realment volem veure la seva majestuositat, però si arribem amb la butxaca molt ajustada, el podem observar algunes d’elles des d’un mirador.</p>
+
+							<img src="../img/Nazca.jpg"/>
+
+							<p><u>Arequipa, Canons i Volcans Arequipa:</u> “Patrimoni Cultural de la Humanitat”, combina arquitectura colonial amb bellesa paisatgista del camp i dels seus canons Colca i Cotahuasi, en els pobles es conserven cultures ancestrals.</p>
+
+							<img src="../img/arequipa.jpg"/>
+
+							<p><u>Amazones:</u> és considerat el riu més cabalós i llarg del món que neix en els cims nevats de la província de Caylloma, al departament d’Arequipa. La seva conca hidrogràfica és la més gran del món i li brinda vida a l’Amazònia, la selva tropical més extensa del planeta i un dels principals pulmons de la Terra.</p>
+
+							<img src="../img/amazonas.jpg"/>
+
+							<p><u>Platges del Nord:</u> si vol escapar-se de la vida quotidiana, res com visitar les extenses platges al Perú de tèbies aigües que ofereixen serveis turístics complets, com les Platges de Tombis, o conegudes platges en l’àmbit internacional, com Máncora, paradís del surf i d’aquells que van buscant un ambient més tranquil i de rela.</p>
+
+							<img src="../img/mancora.jpg"/>
+
+							<p><u>Llac Titicaca:</u> paisatge de contrastos generat per l’altiplà i el llac navegable més alt del món; en l’entorn s’expressa la cultura viva de manera material i immaterial. Una destinació ideal per visitar illes, recórrer penínsules i navegar de diverses formes.</p>
+
+							<img src="../img/lagotiticaca.jpg"/>
+				</div>		
+			</div>
+		</body>
+	</html>
