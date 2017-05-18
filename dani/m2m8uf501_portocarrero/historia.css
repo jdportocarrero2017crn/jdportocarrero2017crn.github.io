@@ -28,6 +28,11 @@ body{
 			position: absolute;
 			top: 30px;		
 		}
+		h3{
+			font-family: Arial, Times;
+			font-size: ;
+			color: white;		
+		}
 		li{
 			font-family: Arial, Times;
 		}
@@ -49,7 +54,6 @@ body{
 		}
 		
 		#lateral{
-			width: 0;
 			background-color: pink;
 		}
 
@@ -63,7 +67,7 @@ body{
 		}
 
 		.D2{
-			height: 2800px;
+			height: 2500px;
 			width: 98%;
 			background-color: black;
 			margin: 5px;
@@ -73,6 +77,7 @@ body{
 
 @media only screen and (max-width: 479px) and (orientation: landscape)
 
+	
 	{
 		body{
 			background-color: black;
@@ -94,6 +99,11 @@ body{
 			position: absolute;
 			top: 30px;		
 		}
+		h3{
+			font-family: Arial, Times;
+			font-size: ;
+			color: white;		
+		}
 		li{
 			font-family: Arial, Times;
 		}
@@ -115,7 +125,6 @@ body{
 		}
 		
 		#lateral{
-			width: 0;
 			background-color: pink;
 		}
 
@@ -129,7 +138,7 @@ body{
 		}
 
 		.D2{
-			height: 2800px;
+			height: 2500px;
 			width: 98%;
 			background-color: black;
 			margin: 5px;
@@ -158,6 +167,11 @@ body{
 			position: absolute;
 			top: 30px;		
 		}
+		h3{
+			font-family: Arial, Times;
+			font-size:;
+			color: white;		
+		}
 		li{
 			font-family: Arial, Times;
 		}
@@ -184,7 +198,7 @@ body{
 			top: 110px;
 		}
 		.D2{
-			height: 2200px;
+			height: 1400px;
 			width: 50%;
 			background-color: black;
 			margin-top: 5px;

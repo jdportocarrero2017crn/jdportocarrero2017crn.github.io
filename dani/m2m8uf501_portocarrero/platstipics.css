@@ -20,13 +20,18 @@ body{
 		}
 		h1{
 			font-family: Arial, Times;
-			font-size: ;
+			font-size:;
 			color: white;
 		}
 		h2{
 			font-size: 30px;
 			position: absolute;
 			top: 30px;		
+		}
+		h3{
+			font-family: Arial, Times;
+			font-size: ;
+			color: white;		
 		}
 		li{
 			font-family: Arial, Times;
@@ -49,7 +54,6 @@ body{
 		}
 		
 		#lateral{
-			width: 0;
 			background-color: pink;
 		}
 
@@ -63,11 +67,14 @@ body{
 		}
 
 		.D2{
-			height: 2800px;
+			height: 3000px;
 			width: 98%;
 			background-color: black;
 			margin: 5px;
 			float: left;
+		}
+		#peruweb{
+			width: 375px;
 		}
 	}
 
@@ -86,13 +93,18 @@ body{
 		}
 		h1{
 			font-family: Arial, Times;
-			font-size: ;
+			font-size:;
 			color: white;
 		}
 		h2{
 			font-size: 30px;
 			position: absolute;
 			top: 30px;		
+		}
+		h3{
+			font-family: Arial, Times;
+			font-size: ;
+			color: white;		
 		}
 		li{
 			font-family: Arial, Times;
@@ -115,7 +127,6 @@ body{
 		}
 		
 		#lateral{
-			width: 0;
 			background-color: pink;
 		}
 
@@ -129,11 +140,14 @@ body{
 		}
 
 		.D2{
-			height: 2800px;
+			height: 3000px;
 			width: 98%;
 			background-color: black;
 			margin: 5px;
 			float: left;
+		}
+		#peruweb{
+			width: 375px;
 		}
 	}
 /* Escriptori */
@@ -157,6 +171,11 @@ body{
 			font-size: 30px;
 			position: absolute;
 			top: 30px;		
+		}
+		h3{
+			font-family: Arial, Times;
+			font-size: 20px;
+			color: white;		
 		}
 		li{
 			font-family: Arial, Times;
@@ -184,12 +203,15 @@ body{
 			top: 110px;
 		}
 		.D2{
-			height: 2200px;
+			height: 2740px;
 			width: 50%;
 			background-color: black;
 			margin-top: 5px;
 			margin-left: 25%;
 			margin-right: 25%;
 			position: center;
+		}
+		#peruweb{
+			margin: 5px;
 		}
 	}
