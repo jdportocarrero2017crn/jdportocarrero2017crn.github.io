@@ -1,0 +1,84 @@
+
+<!DOCTYPE html>
+	<html>
+		<head>
+			<title>DEMO RESPONSIVE</title>
+			<meta author="Daniel">
+			<meta charset="utf-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+			<link rel="stylesheet" type="text/css" href="costums.css">
+			<style>
+				#menu{
+					width: 150px;
+					height: 300px;
+					list-style-type: none;
+					background-color: white;
+					margin: 0;
+					padding: 0;
+					transition: 1s;
+					position: absolute;
+					overflow: hidden;
+					top: 0;
+					left: -300px;
+				}
+				#tanca{
+					cursor: pointer;
+					color: red;
+				}
+				#a{
+					text-decoration: none;
+					color: red;
+				}
+				h2{
+					margin: 0;
+					cursor: pointer;
+				}
+			</style>
+		</head>
+		<body>
+			<div id="cap">
+			
+				<h2 onclick="obri()">☰</h2>
+				<ul id="menu">
+					<li id="tanca" onclick="tanca()">X</li>
+					<li><a href="inicio.html" target="_self">Inicio</a></li>
+					<li><a href="història.html" target="_self">Història</a></li>
+					<li><a href="mapa.html" target="_self">Mapa</a></li>
+					<li><a href="platstípics.html" target="_self">Plats Típics</a></li>
+					<li><a href="fruitatípica.html" target="_self">Fruita Típica</a></li>
+					<li><a href="costums.html" target="_self">Costums</a></li>
+					<li><a href="festes.html" target="_self">Festes</a></li>
+					<li><a href="rutes.html" target="_self">Rutes</a></li>
+					<li><a href="hotels.html" target="_self">Hotels</a></li>
+					<li><a href="moure's.html" target="_self">Moure's</a></li>
+					<li><a href="expressions.html" target="_self">Expressions de Perú</a></li>
+				</ul>
+			</div>
+			<script type="text/javascript" lenguage="javascript">
+				function obri(){
+					document.getElementById("menu").style.left="0px";
+				}
+				function tanca(){
+					document.getElementById("menu").style.left="-300px";
+				}
+			</script>
+			<div id="lateral">
+			</div>
+			<div id="lateralD">
+				<div class="D2">
+					<h1 align="center">Costums</h1>
+							<p>La confluència del credo amb els costums i les vivències han creat en la vida dels peruans prop de 3.000 a l’any, festes patronals, processons, carnavals i rituals, amb l’expressió de la fe de Déu, natura i la celebració de la llibertat. La gran majoria de festes del Perú tenen un aspecte místic.</p>
+
+							<p>Les celebracions principals són els pagaments a la mare terra que es fa en totes les regions, sota el concepte Pachamama (Mare Terra) per la seva generositat. </p> 
+
+							<p><u>Costa:</u> a la regió de la costa, els costums precolombines han patit una fusió amb les noves tendències de l’estranger. Producte d’aquesta influència, han sorgit balls tradicionals com ara la marinera a Trujillo, un ball ple de coqueteria, agilitat i elegància.</p>
+
+							<p><u>Serra:</u> la regió andina alberga una mística i una solemnitat atorgada per ser la zona precursora de la identitat del país. Cadascuna de les seves expressions artístiques i religioses manté l’hegemonia d’un passat que va influenciar tota la regió de Sud-amèrica per mitjà de les ceràmiques, telers, religió i poder sociopolític.</p>
+
+							<p><u>Selva:</u> finalment a la selva peruana, els costums tribals en cadascuna de les regions mantenen, en l’actualitat, una independència de la influència occidental brindant un halo de tradició i respecte per la natura que els envolta.</p>
+
+							<img src="../img/costums.jpg"/>
+				</div>		
+			</div>
+		</body>
+	</html>

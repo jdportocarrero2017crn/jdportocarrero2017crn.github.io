@@ -1,0 +1,101 @@
+
+<!DOCTYPE html>
+	<html>
+		<head>
+			<title>DEMO RESPONSIVE</title>
+			<meta author="Daniel">
+			<meta charset="utf-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+			<link rel="stylesheet" type="text/css" href="moure's.css">
+			<style>
+				#menu{
+					width: 150px;
+					height: 300px;
+					list-style-type: none;
+					background-color: white;
+					margin: 0;
+					padding: 0;
+					transition: 1s;
+					position: absolute;
+					overflow: hidden;
+					top: 0;
+					left: -300px;
+				}
+				#tanca{
+					cursor: pointer;
+					color: red;
+				}
+				#a{
+					text-decoration: none;
+					color: red;
+				}
+				h2{
+					margin: 0;
+					cursor: pointer;
+				}
+			</style>
+		</head>
+		<body>
+			<div id="cap">
+			
+				<h2 onclick="obri()">☰</h2>
+				<ul id="menu">
+					<li id="tanca" onclick="tanca()">X</li>
+					<li><a href="inicio.html" target="_self">Inicio</a></li>
+					<li><a href="història.html" target="_self">Història</a></li>
+					<li><a href="mapa.html" target="_self">Mapa</a></li>
+					<li><a href="platstípics.html" target="_self">Plats Típics</a></li>
+					<li><a href="fruitatípica.html" target="_self">Fruita Típica</a></li>
+					<li><a href="costums.html" target="_self">Costums</a></li>
+					<li><a href="festes.html" target="_self">Festes</a></li>
+					<li><a href="rutes.html" target="_self">Rutes</a></li>
+					<li><a href="hotels.html" target="_self">Hotels</a></li>
+					<li><a href="moure's.html" target="_self">Moure's</a></li>
+					<li><a href="expressions.html" target="_self">Expressions de Perú</a></li>
+				</ul>
+			</div>
+			<script type="text/javascript" lenguage="javascript">
+				function obri(){
+					document.getElementById("menu").style.left="0px";
+				}
+				function tanca(){
+					document.getElementById("menu").style.left="-300px";
+				}
+			</script>
+			<div id="lateral">
+			</div>
+			<div id="lateralD">
+				<div class="D2">
+					<h1 align="center">Moure's</h1>
+						<p>Hi ha molts mitjans de transport en el Perú, però el que els diferencia la seva comoditat o si no qui s’ho pot permetre.
+						Hi ha avions que no porten per les diferents regions o províncies però per un cost molt elevat però en poc temps.</p>
+
+						<img src="../img/lan.jpg"/>
+
+						<p>També hi ha flotes d’autocars que van a regions o províncies i que el seu preu varien si són dates de festes. Hi ha molts tipus d’autocars que poden anar de gamma alta (que vagis còmode) o de gamma econòmica (que no vagis tan còmode i podria ser que vagin fent parades en estacions).</p>
+
+						<img src="../img/autocar.jpg"/>
+
+						<p>Normalment tenen la “mototaxis” que ens serveixen per moure’ns per les províncies, ja que són petites. Normalment en les grans ciutats estan situades per urbanització.</p> 
+
+						<img src="../img/mototaxi.jpg"/>
+
+						<p>Metropolità transport públic que discorre només per la Regió de Lima, té les seves pròpies parades i funciona amb tiquet. El millor d’aquest transport és que té un carril especial per al sol i va de pressa.</p>
+
+						<img src="../img/metropolitano.jpg"/>
+
+						<p>També hi ha empreses de lloguer de cotxes depenent dels dies que et vagis a quedar al país, a més és molt còmode.</p>
+
+						<img src="../img/rentacars.png"/>
+
+						<p>També es pot utilitzar els taxis però no és molt aconsellable, ja que hi ha alguns sense papers o sense carnet de conduir. Pot és que algun et pugui robar Dintre del taxi.</p>
+
+						<img src="../img/taxi.jpg"/>
+
+						<p>I la més utilitzada pels peruans, i per més gent a tot el món és l’app Uber. Aquesta aplicació pots avisar on vols que vinga un taxi de l’empresa Uber fins on vol que el porti fins li posa el preu del trajecte.</p>
+
+						<img src="../img/uber.jpg"/>
+				</div>		
+			</div>
+		</body>
+	</html>
